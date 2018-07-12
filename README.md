@@ -2,7 +2,7 @@
 
 ## Main Objective: Company needs documentation that salaried employees did or didn't work overtime each week.
 
-## Models-
+## Models:
 - [ ] Post -> date:date rationale:text
 - [x] User -> Devise
 - [ ] AdminUser -> STI
