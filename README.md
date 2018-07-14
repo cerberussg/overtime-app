@@ -15,7 +15,7 @@
 - [ ] Needs to be documented either overtime or 0 overtime
 
 ## UI:
-- [ ] Bootstrap -> formatting
+- [x] Bootstrap -> formatting
 
 ## TODOS:
 - [ ] Refactor user association integration test in post_spec
