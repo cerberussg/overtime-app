@@ -19,4 +19,3 @@
 
 ## TODOS:
 - [ ] Refactor user association integration test in post_spec
-- [ ] Add full name method
