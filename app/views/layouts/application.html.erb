@@ -15,6 +15,7 @@
         <div class="col-md-12">
           <%= render 'shared/nav' %>
           <div class="container">
+            <%= js add_gritter(flash[:notice], title: "Over Time? Notification", sticky: false, time: 10000) %>
             <%= yield %>
           </div>
         </div>
