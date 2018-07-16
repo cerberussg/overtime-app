@@ -19,6 +19,8 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.1', '>= 4.1.1'
 gem 'jquery-rails'
 gem 'gritter', '~> 1.2'
+gem 'administrate', '~> 0.10.0'
+gem 'bourbon', '~> 5.0', '>= 5.0.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
