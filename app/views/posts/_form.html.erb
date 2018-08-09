@@ -1,5 +1,3 @@
-# local: true needed with form_with due to XHR requests, form_with uses ajax
-# otherwise validations don't work
 <%= form_with model: @post, local: true do |f| %>
   <% if @post.errors.any? %>
     <% @post.errors.full_messages.each do |error| %>

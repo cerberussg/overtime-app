@@ -11,7 +11,7 @@
 - [ ] Approval Process
 - [ ] SMS Functionality -> link to approve or overtime
 - [x] Administrate gem dashboard
-- [ ] Block non admin and guest users
+- [x] Block non admin and guest users
 - [ ] Email managers approval requests
 - [ ] Needs to be documented either overtime or 0 overtime
 
