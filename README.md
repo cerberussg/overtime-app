@@ -9,7 +9,7 @@
 
 ## Features:
 - [ ] Approval Process
-- [ ] SMS Functionality -> link to approve or overtime
+- [ ] SMS Functionality -> link to approve overtime
 - [x] Administrate gem dashboard
 - [x] Block non admin and guest users
 - [ ] Email managers approval requests
