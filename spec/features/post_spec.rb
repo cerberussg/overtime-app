@@ -70,6 +70,13 @@ describe 'navigate' do
 
       expect(User.last.posts.last.rationale).to eq("User Association")
     end
+
+    it 'will render new form as rationale is missing' do
+      fill_in 'post[date]', with: Date.today
+      click_on "Save"
+
+      expect(current_path).to eql(posts_path)
+    end
   end
 
   describe 'edit' do
@@ -92,6 +99,15 @@ describe 'navigate' do
       click_on "Save"
 
       expect(User.last.posts.last.rationale).to eq("Edited Content")
+    end
+
+    it 'will render new form as rationale is missing' do
+      visit edit_post_path(@post)
+      fill_in 'post[date]', with: Date.today
+      fill_in 'post[rationale]', with: ""
+      click_on "Save"
+
+      expect(current_path).to eql(post_path(@post))
     end
   end
 end
