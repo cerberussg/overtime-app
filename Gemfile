@@ -22,6 +22,8 @@ gem 'gritter', '~> 1.2'
 gem 'administrate', '~> 0.10.0'
 gem 'bourbon', '~> 5.0', '>= 5.0.1'
 gem 'rubyzip', '~> 1.2', '>= 1.2.2'
+gem 'rack', '~> 2.0', '>= 2.0.6'
+gem 'loofah', '~> 2.2', '>= 2.2.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
